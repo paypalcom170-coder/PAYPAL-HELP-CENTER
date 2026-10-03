@@ -1,0 +1,6 @@
+input[name="message"] {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+  margin: 0 auto;
+}

